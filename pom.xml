@@ -15,12 +15,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build><properties>
-   <maven.compiler.source>6</maven.compiler.source>
-   <maven.compiler.target>1.6</maven.compiler.target>
- </properties>
-    
+  <build> 
     <plugins>
+     
       <plugin>
         <!-- Build an executable JAR -->
         <groupId>org.apache.maven.plugins</groupId>
@@ -38,4 +35,8 @@
       </plugin>
     </plugins>
   </build>
+   <properties>
+   <maven.compiler.source>6</maven.compiler.source>
+   <maven.compiler.target>1.6</maven.compiler.target>
+ </properties>
 </project>
